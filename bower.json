@@ -1,0 +1,13 @@
+{
+  "name": "lyft",
+  "homepage": "https://github.com/JocelynJo/lyft",
+  "authors": [
+    "JocelynJoe <jocelyn.pena.contreras@gmail.com>"
+  ],
+  "description": "aplicacion",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "google-map": "GoogleWebComponents/google-map#^1.1.14"
+  }
+}

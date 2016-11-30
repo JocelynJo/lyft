@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <title>Lyft</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flags.css">
+    <link rel="stylesheet" href="css/sing-up.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-xs-1 icono">
+                <a href="javascript:history.back()"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-xs-10 texto">
+                <h3 class="text-center">Sing up</h3>
+                <p class="text-center">Join now for free ride credit</p>
+
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid form-inline">
+        <div class="row ">
+            <div class="col-xs-11" id="selector-pais">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="paises"
+                    data-toggle="dropdown"       aria-haspopup="true" aria-expanded="true"><img class="banderas" src="img/banderas/Chile.png" alt=""><span class="num">+569</span>
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" id="lista-pais">
+                        <li><a href="#"><img src="img/banderas/Chile.png" alt=""><span>+569</span></a></li>
+                        <li><a href="#"><img src="img/banderas/Argentina.png" alt=""><span>+549</span></a></li>
+                        <li><a href="#"><img src="img/banderas/Brazil.png" alt=""><span>+55</span> 
+                        </a></li>
+                        <li><a href="#"><img src="img/banderas/Peru.png" alt=""><span>+51</span></a></li>
+                        <li><a href="#"><img src="img/banderas/Colombia.png" alt=""><span>+55</span></a></li>
+                    </ul>
+                </div><!-- /btn-group -->
+                    <input id="phone" type="tel" class="form-control " aria-label="..."  placeholder="Ingresa tu numero">
+                </div>  
+                <div id="alerta"></div>
+            </div>
+           
+        </div>
+</section>
+<section class=container-fluid>
+    <div class="row">
+        <div class="col-xs-12">
+            <button type="submit" class="btn btn-next envio"><a class="btn-enlace" href="fomulario.html" disabled >Next</a></button>
+        </div>
+    </div>
+    
+</section>
+
+
+ <script  type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src='js/main.js'></script>
+
+</body>
+</html>

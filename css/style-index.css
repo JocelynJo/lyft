@@ -1,0 +1,57 @@
+body{
+	background-image: url(../img/fondopantalla.jpg);
+	background-position: center,center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-color: #949494;*/
+	
+}
+.logo{
+	margin-top: 100%;
+	width: 190%;
+	height: inherit;
+}
+.botonera{
+	margin-top: 90%;
+	margin-left: 10%;
+}
+.btn-ttc{
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: transparent;
+  border: 3px solid white;
+  width: 80%; 
+  height: 50px;
+  font-size: 150%;
+}
+
+.btn-enlace{
+	color:white;
+	text-decoration: none;
+}
+
+.btn-sign{
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  width: 80%; 
+  background: rgba(255,93,177,1);
+  background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+  background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(239,1,124,1) 100%);
+  height: 50px;
+  font-size: 150%;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
